@@ -12,6 +12,8 @@ body, html {
   font-size:1.5rem;
   font-weight: 300;
   text-transform: uppercase;
+
+  padding:.5em 0em
 }
 
 .main{
@@ -25,12 +27,12 @@ body, html {
 
 .blueBackground{
   background: #3951b1;
-  padding-top: 2em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
 
+  text-align: left;
+  justify-content: flex-start;
 
 }
 
@@ -68,10 +70,20 @@ body, html {
   .whiteBox{
     margin-right:2.4%
   }
+
+  .blueBackground h2 {
+    background: rgb(51, 73, 159);
+    width: 110%;
+    position: relative;
+    left: -6%;
+    right: 0;
+    padding-left: 6%;
+
+  }
 }
 
 @media (max-width:991px){
     .whiteBox{
-      margin: 1em 1em;
+      margin: 1em 1.5em;
     }
 }
