@@ -7,6 +7,6 @@ I will be using react-boostrap as my design system
 
 Faker-js used for data
 
-Unit test with Jest for AddressCard component
+Two unit test with Jest for AddressCard component
 
 Then deploy to Heroku using Express

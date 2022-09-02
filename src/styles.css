@@ -61,6 +61,20 @@ body, html {
   font-size:1.2em
 }
 
+.blueBackground h2 {
+  background: rgb(51, 73, 159);
+  width: 110%;
+  position: relative;
+  left: -6%;
+  right: 0;
+  padding-left: 6%;
+
+}
+@media (min-width:1800px){
+.blueBackground h2 {
+  width: 109%
+}
+}
 
 @media (min-width:992px){
   .blueBackground{
@@ -71,15 +85,7 @@ body, html {
     margin-right:2.4%
   }
 
-  .blueBackground h2 {
-    background: rgb(51, 73, 159);
-    width: 110%;
-    position: relative;
-    left: -6%;
-    right: 0;
-    padding-left: 6%;
 
-  }
 }
 
 @media (max-width:991px){
